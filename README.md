@@ -51,24 +51,19 @@ Encourages open-source participation.
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
 1.Visibility
-Private: Only accessible to invited users.
-Public: Open to everyone on GitHub
+Private: Only accessible to invited users.Public: Open to everyone on GitHub
 
 2.Access Control
-Private: Only authorized users can view or contribute.
-Public: Anyone can view and fork the repo.
+Private: Only authorized users can view or contribute.Public: Anyone can view and fork the repo.
 
 3.Collaboration
-Private:Suitable for internal teams or confidential projects.
-Public:Supports open-source and community contributions.
+Private:Suitable for internal teams or confidential projects.Public:Supports open-source and community contributions.
 
 4.Security
-Private: More control over access and data security.
-Public:Less control over who sees the code.
+Private: More control over access and data security.Public:Less control over who sees the code.
 
 5.Cost
-Private:Free for small teams, but larger teams may need a paid plan.
-Public:	Free for unlimited public repositories.
+Private:Free for small teams, but larger teams may need a paid plan.Public:	Free for unlimited public repositories.
 
 Advantages & Disadvantages
 Public Repositories
@@ -98,14 +93,10 @@ A commit is a saved snapshot of your project at a specific point in time. Each c
 
 Steps to Make Your First Commit on GitHub
 1. Set Up Git
-Configure Git with your name and email
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+Configure Git with your name and email git config --global user.name "Your Name" git config --global user.email "your.email@example.com"
 
 2. Clone or Create a New Repository
-clone it to your local machine:
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+clone it to your local machine: git clone https://github.com/your-username/repository-name.git cd repository-name.
 
 3.If starting locally, initialize Git 
 git init  
@@ -118,12 +109,10 @@ Add files to the staging area (preparing them for commit):
 git add README.md
 
 6. Commit the Changes
-Save the staged changes with a message:
-git commit -m "Initial commit - added README"
+Save the staged changes with a message: git commit -m "Initial commit - added README"
 
 7. Push the Commit to GitHub
-Link your local repository to GitHub (only needed for new repositories)
-git remote add origin https://github.com/your-username/repository-name.git
+Link your local repository to GitHub (only needed for new repositories) git remote add origin https://github.com/your-username/repository-name.git
 
 8.Push the commit to GitHub:
 git push origin main  
@@ -136,33 +125,24 @@ Safe Experimentation – Changes can be tested before merging into the main proj
 Efficient Collaboration – Teams can work on updates without interfering with each other's code.
 Typical Workflow: Creating, Using, and Merging Branches
 1. Create a New Branch
-* List existing branches:
-git branch  
-* Create a new branch (e.g., feature-branch):
-git branch feature-branch
+* List existing branches: git branch  
+* Create a new branch (e.g., feature-branch):git branch feature-branch
  
-2.Switch to the new branch:
-git checkout feature-branch  
+2.Switch to the new branch:git checkout feature-branch  
 
 3. Make Changes and Commit
-Modify files and add them:
-git add .
+Modify files and add them:git add .
 
-4.Commit changes:
-git commit -m "Added new feature"
+4.Commit changes: git commit -m "Added new feature"
 
 5. Push the Branch to GitHub
-Upload the branch to GitHub:
-git push origin feature-branch  
+Upload the branch to GitHub: git push origin feature-branch  
 
 6. Merge the Branch into Main
-* Switch back to the main branch:
-git checkout main  
-* Merge changes:
-git merge feature-branch
+* Switch back to the main branch: git checkout main  
+* Merge changes: git merge feature-branch
  
-7.Push the updated main branch to GitHub:
-git push origin main  
+7.Push the updated main branch to GitHub: git push origin main  
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 A Pull Request (PR) is a key feature in GitHub that enables developers to propose changes, review code, and collaborate before merging updates into the main project. It helps by:
