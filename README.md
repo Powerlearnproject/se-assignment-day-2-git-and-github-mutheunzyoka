@@ -21,6 +21,7 @@ Visibility: Decide if your repository should be Public (visible to everyone) or 
 You can add a README.md file to introduce the project.
 Select a .gitignore file to exclude unnecessary files (e.g., node_modules for JavaScript projects).
 Choose a license if you want to specify usage rights for your code.
+
 5. Create the Repository
 Click the "Create repository" button.
 
@@ -101,27 +102,23 @@ clone it to your local machine:
 git clone https://github.com/your-username/repository-name.git
 cd repository-name
 
-
 3.If starting locally, initialize Git 
 git init  
 
 4. Add a File (e.g., README.md)
 echo "# My First GitHub Project" > README.md  
 
-   
 5. Stage the Changes
 Add files to the staging area (preparing them for commit):
-git add README.md  
+git add README.md
 
- 
-7. Commit the Changes
+6. Commit the Changes
 Save the staged changes with a message:
 git commit -m "Initial commit - added README"
 
-8. Push the Commit to GitHub
+7. Push the Commit to GitHub
 Link your local repository to GitHub (only needed for new repositories)
-git remote add origin https://github.com/your-username/repository-name.git  
-
+git remote add origin https://github.com/your-username/repository-name.git
 
 8.Push the commit to GitHub:
 git push origin main  
