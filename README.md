@@ -53,15 +53,19 @@ Encourages open-source participation.
 1.Visibility
 Private: Only accessible to invited users.
 Public: Open to everyone on GitHub
+
 2.Access Control
 Private: Only authorized users can view or contribute.
 Public: Anyone can view and fork the repo.
+
 3.Collaboration
 Private:Suitable for internal teams or confidential projects.
 Public:Supports open-source and community contributions.
+
 4.Security
 Private: More control over access and data security.
 Public:Less control over who sees the code.
+
 5.Cost
 Private:Free for small teams, but larger teams may need a paid plan.
 Public:	Free for unlimited public repositories.
@@ -72,6 +76,7 @@ Advantages:
 Encourages collaboration and knowledge sharing.
 Attracts contributions from the open-source community.
 Great for showcasing work and building a portfolio.
+
 Disadvantages:
 No privacy—anyone can view and use the code.
 Potential for unauthorized forks or misuse.
